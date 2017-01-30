@@ -1,0 +1,19 @@
+/*styles go here*/
+/*p {
+  color: red;
+}
+
+p{
+  color: blue;
+}*/
+p {
+  font-family: Georgia, "Times New Roman", serif;
+}
+body {
+  background-color: #ebe3c3;
+}
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+/*top right bottom left is the sequence of widths and margin distance coding*/
