@@ -1,0 +1,76 @@
+/*styles go here*/
+p {
+  color: #9205ed;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+body {
+  background-color: #ebe3c3;
+}
+
+#container {
+  width: 80%;
+/*  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;*/
+  /*above same as below*/
+  margin: 0 auto 0 auto;
+  /* ^^meaning, top 0, right auto, bottom 0, left auto*/
+  /*or*/
+  margin: 0 auto;
+  /*^^meaning, top and bottom 0, left and right auto*/
+}
+
+#nav {
+  padding: 0;
+  list-style-type: none;
+}
+
+/*below: this command tells CSS to style all list items within Niv ID only*/
+#nav li {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #ccc; /*adds border between words/links to distinguish them better*/
+}
+
+#nav a:link, #nav a:visited {
+  display: block; /*makes the words into a block element so they reach all the way across page*/
+  color: #ffffff;
+  background-color: #98bf21;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none; /*removes underlines*/
+  padding: 4px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav a:hover, #nav a:active {
+  background-color: #7a991a;
+}
+
+.caption {
+  color: black;
+  font-family: Georgia, "Times New Roman", serif;
+  margin-top: 0;
+  font-style: italic;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+#footer {
+  color: black;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.8em;
+  border-top: 1px solid black; 
+}
+
+
+
+img {
+  border: none;
+}
