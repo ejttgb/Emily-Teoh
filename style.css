@@ -1,7 +1,21 @@
+html {
+  font-size: 100%;
+}
+
+p {
+    font-family: "Exo", Georgia, Helvetica, sans-serif;
+    color: #BB994F;
+}
+
 body {
   text-align: center;
   margin: 0 auto;
-  background-color: #da8997;
+  background-color: #5D2E6E;
+}
+
+#header {
+  padding: 4px;
+  margin: 0 auto;
 }
 
 #box {
@@ -10,31 +24,32 @@ body {
 }
 
 #joke {
-  font-size: 1.5em;
-  color: blue;
-  font-weight: bolder;
+  color: #BB994F;
 }
 
 h1 {
-  font-family: Georgia, "Times New Roman", Helvetica, Arial, sans-serif;
+  font-family: "Lobster Two", Georgia, serif, cursive;
+  font-size: 2rem;
+  color: #ffffff;
 }
 
 #links li {
-  border-bottom: 1px solid black;
+  border: 1px solid #88754A;
   margin: 0;
   padding: 0;
   text-decoration: none;
+  float: left;
+  width: 30%;
+
 }
 
 #links {
-  padding:0;
+  padding: 1px;
   list-style-type: none;
-  color: green;
-  font-weight: bold;
   text-align:center;
   text-decoration: none;
   padding: 4px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Tangerine", cursive;
 }
 
 
@@ -51,16 +66,17 @@ h1 {
 #links a:link, a:visited {
 	display:block;
     color: #ffffff;
-    background-color: #46cc26;
+    background-color: #4A6E5F;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
     padding: 5px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Tangerine", Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
 }
 
 #links a:hover, a:active {
-    background-color: #44bb89;
+    background-color: #44BB89;
   }
 
 
