@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>A basic page</title>
+	<link rel="stylesheet" href="style.css">
+
+	<script>
+	function draw_canvas() {
+	  var canvas = document.getElementById("a");
+	  var context = canvas.getContext("2d");
+	  context.fillRect(50, 25, 150, 100);
+	}
+	</script>
+
+</head>
+
+<body>
+
+<!--
+<h1> Here's a cool canvas example</h1>
+<canvas id="a" width="300px" height="200px" onclick="draw_canvas();">
+	<onclick function causes a change when you click into the canvas. Change is dependent
+			on whatever you write after onlick>
+
+</canvas>
+-->
+
+<!--<h1> Here's a cool audio example! </h1>
+
+<audio src="audio/backwards.mp3" type ="audio/mp3" controls>
+
+other attributes:
+autoplay = autoplays an element when it's loaded
+loop = loops element forever
+controls = adds play, pause button, volume, timeline (people can jump ahead)
+
+<audio controls
+source src="audio/backwards.mp3" type ="audio/mp3"/>
+source src="audio/backwards.mp3" type ="audio/ogg"/>
+Ogg is another format for browswers that don't support MP3.
+
+
+<img src="images/cat.jpg" alt="A cat picture" width="500px" />
+-->
+
+<h1>Here's a cool video example</h1>
+
+<video width="568" height="320" controls poster="images/placeholder.png">
+<source src="movies/chester.mov" type="video/mp4">
+</video>
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+<!--<object type="application/x-shockwave-flash" data="player.swf?soundFile=audio/backwards.mp3"><param name="movie" value="player.swf?soundFile=audio/backwards.mp3"></object>-->
