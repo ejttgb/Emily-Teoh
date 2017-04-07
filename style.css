@@ -81,8 +81,8 @@ h1 {
 }
 
 #box .links {
-  margin:none;
-  padding: none;
+  /*margin:none;*/
+  /*padding: none;*/
 }
 
 
@@ -255,7 +255,3 @@ article a {
   }
 
   }
-
-
-
-}
