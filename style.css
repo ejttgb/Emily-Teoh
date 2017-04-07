@@ -254,4 +254,8 @@ article a {
     justify-content: space-between;
   }
 
+  aside {
+    max-width: 400px;
+  }
+
   }
