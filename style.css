@@ -45,6 +45,7 @@ aside {
 }
 
 .aside-1{
+  display: flex;
   background: gold;
   justify-content: space-around;
 }
@@ -72,6 +73,16 @@ h1 {
   text-decoration: none;
   padding: 4px;
   font-family: "Tangerine", cursive;
+  display: block;
+}
+
+.navigation {
+  width: 90%;
+}
+
+#box .links {
+  margin:none;
+  padding: none;
 }
 
 
@@ -104,9 +115,14 @@ h1 {
 
     img {
       border: none;
+      display: none;
     }
 
-@media (min-width: 700px) {
+    .text {
+      display: block;
+    }
+
+@media all and (min-width: 700px) {
 
     #box {
       display: flex;
@@ -114,9 +130,68 @@ h1 {
 
     .links {
       display: flex;
-      flex-flow: row wrap;
       width: 100vh;
     }
+
+
+ .aside-1 {
+      display: flex;
+     order: 2;
+     width: 25vh;
+     float: right;
+     /*align-items: flex-end;
+     justify-content: flex-end;*/
+         flex: 1 auto;
+
+ }
+
+ aside {
+      display: flex;
+    padding-top: 30px;
+    padding-bottom: 100vh;
+    padding-left: 5px;
+    padding-right: 5px;
+    /*flex: 1 auto;*/
+         margin-right: 35px;
+ }
+
+ article {
+   display: flex;
+   flex-flow: row wrap;
+   flex: 1 auto;
+ }
+
+
+
+ /*article {
+     order: 2;
+     width: 100vh;
+     margin: 0 0 0 0;
+     flex: 3 0px;
+ }*/
+
+
+img {
+  width: 25%;
+  display: flex;
+  flex: 1 auto;
+  order: 1;
+  margin: 0px;
+  justify-content: center;
+}
+
+article a {
+  width: 60%;
+}
+
+.text {
+  width: 85vh;
+  order: 2
+}
+
+
+}
+
 
     /*aside {
       padding: 50px 0px;*/
@@ -165,36 +240,22 @@ h1 {
      order: 3;
  }*/
 
-
- .aside-1 {
-     order: 2;
-     width: 25vh;
-     float: right;
-     align-items: flex-end;
- }
-
- aside {
-    padding-top: 30px;
-    padding-bottom: 100vh;
-    padding-left: 5px;
-    padding-right: 5px;
+@media all and (min-width: 900px) {
+  img {
+    width: 50%;
+    display: block;
     flex: 1 auto;
- }
+  }
+
+  .links {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  }
 
 
- article {
-     order: 1;
-     width: 100vh;
-     margin: 0 0 0 0;
-     float: left;
-     flex: 3 0px;
- }
-
-
-img {
-  width: 25%;
-  order: 1;
-  float: left;
-}
 
 }
