@@ -122,6 +122,39 @@ h1 {
       display: block;
     }
 
+    .navigation ul {
+      display: none;
+    }
+
+
+    #header {
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+    .menu-trigger {
+      display: flex;
+      flex-flow: row wrap;
+        order: 1;
+        font-size: 2em;
+        width: 1em;
+        padding-left: 0;
+        margin: 0;
+
+    }
+
+    #header h1{
+      display: flex;
+      flex-flow: row wrap;
+      order: 2;
+      padding-left: 0;
+
+    }
+
+.menu-trigger, #header h1 {
+  flex: 1 auto;
+}
+
 @media all and (min-width: 700px) {
 
     #box {
@@ -189,6 +222,12 @@ article a {
   order: 2
 }
 
+.menu-trigger {
+    display: none;
+}
+.navigation ul{
+  display: flex;
+}
 
 }
 
@@ -250,7 +289,7 @@ article a {
   .links {
     display: flex;
     flex-flow: row;
-    width: 100%;
+    width: 33%;
     justify-content: space-between;
   }
 
