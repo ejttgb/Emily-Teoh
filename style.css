@@ -2,6 +2,11 @@ html {
   font-size: 100%;
 }
 
+h2 {
+  font-family: "Lobster Two", Georgia, serif, cursive;
+  color: #ffffff;
+}
+
 p {
     font-family: "Exo", Georgia, Helvetica, sans-serif;
     color: #BB994F;
