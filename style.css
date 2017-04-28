@@ -155,6 +155,37 @@ h1 {
   flex: 1 auto;
 }
 
+/*.map-wrapper {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-wrapper iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}*/
+
+.map-wrapper {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-wrapper iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
 @media all and (min-width: 700px) {
 
     #box {
@@ -229,8 +260,6 @@ article a {
   display: flex;
 }
 
-}
-
 
     /*aside {
       padding: 50px 0px;*/
@@ -279,6 +308,23 @@ article a {
      order: 3;
  }*/
 
+ .map-wrapper {
+     overflow:hidden;
+     padding-bottom:56.25%;
+     position:relative;
+     height:100;
+ }
+
+ .map-wrapper iframe{
+     left:0;
+     top:0;
+     height:100%;
+     width:100%;
+     position:absolute;
+ }
+
+}
+
 @media all and (min-width: 900px) {
   img {
     width: 50%;
@@ -296,5 +342,22 @@ article a {
   aside {
     max-width: 400px;
   }
+  .map-wrapper {
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+      display: block;
+  }
+
+  .map-wrapper iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+
+  }
+
 
   }
